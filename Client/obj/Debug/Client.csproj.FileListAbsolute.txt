@@ -1,0 +1,16 @@
+C:\_src\slask\Thesaurus\Client\bin\Debug\Client.exe.config
+C:\_src\slask\Thesaurus\Client\bin\Debug\Client.exe
+C:\_src\slask\Thesaurus\Client\bin\Debug\Client.pdb
+C:\_src\slask\Thesaurus\Client\obj\Debug\Client.exe
+C:\_src\slask\Thesaurus\Client\obj\Debug\Client.pdb
+C:\_src\slask\Thesaurus\Client\bin\Debug\Thesaurus.dll
+C:\_src\slask\Thesaurus\Client\bin\Debug\Nest.dll
+C:\_src\slask\Thesaurus\Client\bin\Debug\Elasticsearch.Net.dll
+C:\_src\slask\Thesaurus\Client\bin\Debug\Newtonsoft.Json.dll
+C:\_src\slask\Thesaurus\Client\bin\Debug\Thesaurus.pdb
+C:\_src\slask\Thesaurus\Client\bin\Debug\Nest.pdb
+C:\_src\slask\Thesaurus\Client\bin\Debug\Nest.xml
+C:\_src\slask\Thesaurus\Client\bin\Debug\Elasticsearch.Net.pdb
+C:\_src\slask\Thesaurus\Client\bin\Debug\Elasticsearch.Net.xml
+C:\_src\slask\Thesaurus\Client\bin\Debug\Newtonsoft.Json.xml
+C:\_src\slask\Thesaurus\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache

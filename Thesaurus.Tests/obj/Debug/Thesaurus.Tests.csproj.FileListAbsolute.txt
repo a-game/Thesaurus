@@ -1,0 +1,17 @@
+C:\_src\slask\Thesaurus\Thesaurus.Tests\obj\Debug\Thesaurus.Tests.csprojResolveAssemblyReference.cache
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\Thesaurus.Tests.dll
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\Thesaurus.Tests.pdb
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\nunit.framework.dll
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\Thesaurus.dll
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\Nest.dll
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\Elasticsearch.Net.dll
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\Thesaurus.pdb
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\nunit.framework.xml
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\Nest.pdb
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\Nest.xml
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\Elasticsearch.Net.pdb
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\Elasticsearch.Net.xml
+C:\_src\slask\Thesaurus\Thesaurus.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\_src\slask\Thesaurus\Thesaurus.Tests\obj\Debug\Thesaurus.Tests.dll
+C:\_src\slask\Thesaurus\Thesaurus.Tests\obj\Debug\Thesaurus.Tests.pdb
