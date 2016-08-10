@@ -21,6 +21,7 @@ namespace Thesaurus
         {
             var response = _client.Search<WordWithSynonyms>(search => search
                 .Query(queryContainer => queryContainer.MatchAll())
+                .Index(_index)
                 .Aggregations(agg => agg.Terms("words", termsAgg => termsAgg.Field(w => w.Keyword))));
 
             return response.Aggs.Terms("words").Buckets.Select(b => b.Key);
@@ -57,7 +58,8 @@ namespace Thesaurus
         // should be paged
         public IEnumerable<string> GetSynonyms(string word)
         {
-            var response = _client.Search<WordWithSynonyms>(s => s
+            var response = _client.Search<WordWithSynonyms>(search => search
+                .Index(_index)
                 .Query(queryContainer => queryContainer
                     .Match(matchQuery => matchQuery
                         .Query(word)
