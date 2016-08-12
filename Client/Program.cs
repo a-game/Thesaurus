@@ -60,7 +60,7 @@ namespace Client
             Console.WriteLine("Add synonyms - 1");
             Console.WriteLine("Get synonym - 2");
             Console.WriteLine("Get all words - 3");
-            Console.WriteLine("So what's it donna be?");
+            Console.WriteLine("So what's it gonna be?");
         }
 
         private static void ExecuteOption(int option)

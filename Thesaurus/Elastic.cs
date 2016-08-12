@@ -39,6 +39,8 @@ namespace Thesaurus
                     bulkDescriptor.IndexMany(documents, (d, p) => d.Index(_index).Id(p.Word).Document(p)).Refresh()
                 );
 
+            _client.Refresh(_index);
+
             if (response.Errors)
             {
                 if (response.ServerError != null)
@@ -65,7 +67,9 @@ namespace Thesaurus
                         .Query(word)
                         .Field(w => w.Word))));
 
-            return response.Documents.First().Sysnonyms;
+            return response.Total > 0
+                ? response.Documents.First().Sysnonyms
+                : new[] {$"No synonyms were found for {word}"};
         }
 
         public void CreateIndex()
