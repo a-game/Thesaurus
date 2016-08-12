@@ -95,7 +95,15 @@ namespace Client
                         word = Console.ReadLine();
                     }
 
-                    thesaurus.GetSynonyms(word).ToList().ForEach(Console.WriteLine);
+                    var synonyms = thesaurus.GetSynonyms(word).ToList();
+                    if (synonyms.Any())
+                    {
+                        synonyms.ForEach(Console.WriteLine);
+                    }
+                    else
+                    {
+                        Console.WriteLine($"No synonyms were found for {word}");
+                    }
                     break;
                 }
                 case 3:

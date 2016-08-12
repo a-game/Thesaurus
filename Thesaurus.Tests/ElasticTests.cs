@@ -108,5 +108,14 @@ namespace Thesaurus.Tests
             Assert.That(words.Contains("hub"));
             Assert.That(words.Contains("hubba"));
         }
+
+        [Test]
+        public void should_be_able_to_handle_empty_result()
+        {
+            //given, when
+            var synonyms = _elastic.GetSynonyms("foobar");
+
+            Assert.That(synonyms, Is.Empty);
+        }
     }
 }

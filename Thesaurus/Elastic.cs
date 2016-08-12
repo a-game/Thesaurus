@@ -69,7 +69,7 @@ namespace Thesaurus
 
             return response.Total > 0
                 ? response.Documents.First().Sysnonyms
-                : new[] {$"No synonyms were found for {word}"};
+                : new string[0];
         }
 
         public void CreateIndex()
